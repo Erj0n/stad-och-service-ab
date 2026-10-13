@@ -20,6 +20,10 @@ python -m http.server 4173 --bind 127.0.0.1
 - `style.css`: blått färgtema och mobilanpassning.
 - `app.js`: mobilmeny, tjänstedialoger och offertunderlag.
 - `assets/`: interiörbild och favicon.
+- `strato/`: separat uppladdningsklar kopia för STRATO.
+- `STRATO.md`: instruktioner för uppladdning till STRATO.
+
+Uppdatera STRATO-mappen efter ändringar med `node scripts/export-strato.mjs`. Webbplatsens originalfiler ligger kvar i repots rot.
 
 ## Kontakt och offert
 

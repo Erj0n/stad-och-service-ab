@@ -8,3 +8,4 @@
 - Preserve the Swedish language, blue theme, company identity, and supplied contact addresses unless asked to change them. The quote form opens an email draft; do not claim it sends mail automatically.
 - Run `node --check app.js` when JavaScript changes and `git diff --check` for text changes. Check relevant links and assets when modifying them. Report any verification that could not be completed.
 - Repository synchronization happens while completing requested edits; no background file watcher is configured.
+- Keep the tracked `strato/` upload folder in sync with website changes by running `node scripts/export-strato.mjs` before committing. Edit source files at the repository root, not the generated copies. Remove obsolete generated files explicitly when deleting or renaming original files. See `STRATO.md` for upload instructions; generating the folder does not authorize uploading to STRATO.
