@@ -38,3 +38,9 @@ Google Fonts laddas externt; lokala reservtypsnitt används om de inte kan hämt
 JavaScript-syntax, interna sidlänkar, unika HTML-id:n, lokala tillgångar och kontaktadresser har kontrollerats. Sidan och dess tillgångar har svarat med HTTP 200 i lokal förhandsvisning. Visuell webbläsargranskning är inte genomförd.
 
 Detta repo lagrar webbplatsens källfiler. GitHub Pages och automatisk publicering är inte konfigurerade.
+
+## Arbetsrutin för ändringar
+
+`main` är webbplatsens aktuella huvudversion. När vi ändrar webbplatsen med assistenten sparas och laddas ändringarna upp till denna gren efter relevanta kontroller. Pull requests används bara när de efterfrågas eller krävs av repots regler.
+
+Detta är en arbetsrutin för ändringar som görs med assistenten, inte en bakgrundssynkronisering av filer som redigeras på annat håll.
